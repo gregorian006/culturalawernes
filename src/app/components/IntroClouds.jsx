@@ -57,20 +57,21 @@ const IntroClouds = ({
         ease: "power2.in"
       })
       .to(leftCloudRef.current, {
-          xPercent: -120,
+          xPercent: -150, // DULU -120, SEKARANG -150 (Dorong jauh ke kiri)
           duration: 2,
           ease: "power4.inOut"
       }, "open")
       .to(rightCloudRef.current, {
-          xPercent: 120,
+          xPercent: 150, // DULU 120, SEKARANG 150 (Dorong jauh ke kanan)
           duration: 2,
           ease: "power4.inOut"
       }, "open");
 
     } else {
       // --- MODE EXIT ---
-      gsap.set(leftCloudRef.current, { xPercent: -120 });
-      gsap.set(rightCloudRef.current, { xPercent: 120 });
+      gsap.set(leftCloudRef.current, { xPercent: -150 }); // Ganti -120 jadi -150
+      gsap.set(rightCloudRef.current, { xPercent: 150 }); // Ganti 120 jadi 150
+      // ...
 
       tl.to(leftCloudRef.current, {
           xPercent: 0,
