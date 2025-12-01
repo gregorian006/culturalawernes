@@ -74,9 +74,9 @@ const AboutUsModal = ({ isOpen, onClose }) => {
           {/* Deskripsi Project */}
           <div className="mb-4 pb-4 border-b-2 border-dashed border-[#292524]/30">
             <p className="text-xs md:text-sm text-[#44403c] font-serif italic text-center leading-relaxed">
-              "Website edukasi budaya Pulau Sumatera yang dibuat sebagai proyek 
+              "An educational website about the culture of Sumatra, created as part of the Cultural Awareness project 
               <span className="font-bold text-[#b45309]"> Cultural Awareness</span>. 
-              Menampilkan kekayaan tradisi, makanan, dan pakaian adat dari berbagai provinsi."
+              It showcases the rich traditions, food, and traditional clothing from various provinces."
             </p>
           </div>
           
