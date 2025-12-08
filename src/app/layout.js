@@ -18,13 +18,13 @@ const inter = Inter({
 
 // Metadata untuk SEO
 export const metadata = {
-  title: "Sumatera Culture Fest - Explore Indonesian Heritage",
+  title: "S.E.A.W.A.Y - Sumatra Exploration & Arts Website for All Youth",
   description: "Jelajahi kekayaan budaya pulau Sumatera melalui peta interaktif. Temukan tradisi, makanan, dan pakaian adat dari berbagai suku.",
-  keywords: "budaya sumatera, batak, minangkabau, aceh, tradisi indonesia",
+  keywords: "budaya sumatera, batak, minangkabau, aceh, tradisi indonesia, seaway, youth culture",
   authors: [{ name: "Cultural Awareness Project" }],
   openGraph: {
-    title: "Sumatera Culture Fest",
-    description: "Explore the rich cultural heritage of Sumatra Island",
+    title: "S.E.A.W.A.Y - Sumatra Exploration & Arts Website for All Youth",
+    description: "Explore the rich cultural heritage of Sumatra Island through interactive map",
     type: "website",
   },
 };
