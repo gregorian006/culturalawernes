@@ -166,8 +166,7 @@ export const regionsData = [
       'Komering',
       'Pasemah',
       'Semendo',
-      'Ogan',
-      'Komering'
+      'Ogan'
     ],
     funFact: 'The Srivijaya Kingdom was the largest maritime kingdom in Southeast Asia in the 7th to 13th centuries.',
     traditionalHouse: 'Rumah Limas',
